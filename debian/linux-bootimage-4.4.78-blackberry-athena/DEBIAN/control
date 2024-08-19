@@ -1,0 +1,15 @@
+Package: linux-bootimage-4.4.78-blackberry-athena
+Source: linux-android-blackberry-athena
+Version: 0.0.0+git20230829122528.ad999af.jesus.droidian.athena.ace748.insecure+git20230913184421.5f0716c.jesus.athena.aaz108
+Architecture: arm64
+Maintainer: Droidian porters <info@droidian.org>
+Installed-Size: 57043
+Pre-Depends: flash-bootimage (>= 4)
+Depends: linux-image-4.4.78-blackberry-athena (= 0.0.0+git20230829122528.ad999af.jesus.droidian.athena.ace748.insecure+git20230913184421.5f0716c.jesus.athena.aaz108)
+Section: kernel
+Priority: optional
+Description: Linux kernel for BlackBerry KEY2 - Android Boot Image
+ This package contains the Linux kernel for the BlackBerry KEY2 device.
+ .
+ Note: This package ships an Android Boot Image bundled with Halium's
+ initramfs.
