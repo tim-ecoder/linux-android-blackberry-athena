@@ -1,7 +1,6 @@
-linux-android-blackberry-athena (0.0.0+git20230829122528.ad999af.jesus.droidian.athena.ace748.insecure+git20230913184421.5f0716c.jesus.athena.aaz108+git20240820014655.f27657f.droidian) trixie; urgency=medium
+linux-android-blackberry-athena (0.0.0+git20230829122528.ad999af.jesus.droidian.athena.ace748.insecure+git20230913184421.5f0716c.jesus.athena.aaz108) jesus; urgency=medium
 
-  * Modified KERNEL_BOOTIMAGE_PATCH_LEVEL
-  * arm64: Remove unimplemented syscall log message and Disable unhandled signal log messages by default
+  * athena: remove luna device tree that was being used by mistake
 
- -- Marsh <1208879283@qq.com>  Tue, 20 Aug 2024 01:46:55 +0000
+ -- Jesús Higueras <jesus@dabbleam.com>  Wed, 13 Sep 2023 20:44:21 +0200
 
