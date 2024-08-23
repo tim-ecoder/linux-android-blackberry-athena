@@ -1,5 +1,5 @@
-de17a9e4b2f02389e92e12b7899cd9ea  usr/share/doc/linux-headers-4.4.78-blackberry-athena/changelog.gz
-629d90f3224a453f03c2dda9cd3e0921  usr/src/linux-headers-4.4.78-blackberry-athena/.config
+c317cda4dd7291fd2478706995b8857f  usr/share/doc/linux-headers-4.4.78-blackberry-athena/changelog.gz
+b3630f63039aea74e27e6635697c4b83  usr/src/linux-headers-4.4.78-blackberry-athena/.config
 e223f973c41218a196a1d3054efe7e48  usr/src/linux-headers-4.4.78-blackberry-athena/Documentation/DocBook/Makefile
 e512e879a686f59afbb003b90047e61d  usr/src/linux-headers-4.4.78-blackberry-athena/Documentation/DocBook/media/Makefile
 c6f476e9470ca7e02f1bfe061d80ea99  usr/src/linux-headers-4.4.78-blackberry-athena/Documentation/EDID/Makefile
@@ -35,7 +35,7 @@ ef23463a24d56b6705ac2e31a43234db  usr/src/linux-headers-4.4.78-blackberry-athena
 967da9570426ca78f96c8d8caddb74b2  usr/src/linux-headers-4.4.78-blackberry-athena/Documentation/watchdog/src/Makefile
 2370b55729048373f46fb6367e2e3dba  usr/src/linux-headers-4.4.78-blackberry-athena/Kconfig
 87a7bc15192d1a39f975361caccc0965  usr/src/linux-headers-4.4.78-blackberry-athena/Makefile
-e87d901f866273b96bb8564b1b0e3741  usr/src/linux-headers-4.4.78-blackberry-athena/Module.symvers
+01cae3013b60daab132bc5602e6376ff  usr/src/linux-headers-4.4.78-blackberry-athena/Module.symvers
 7accc623372c17fa241a056c1b666b73  usr/src/linux-headers-4.4.78-blackberry-athena/arch/Kconfig
 332633249ec10571be3ba1bf15cc0711  usr/src/linux-headers-4.4.78-blackberry-athena/arch/alpha/Kconfig
 d95f38e1df0bca6a0e56e2d7728543e9  usr/src/linux-headers-4.4.78-blackberry-athena/arch/alpha/Kconfig.debug
@@ -3805,7 +3805,7 @@ d41d8cd98f00b204e9800998ecf8427e  usr/src/linux-headers-4.4.78-blackberry-athena
 d41d8cd98f00b204e9800998ecf8427e  usr/src/linux-headers-4.4.78-blackberry-athena/include/config/audit/arch/compat/generic.h
 d41d8cd98f00b204e9800998ecf8427e  usr/src/linux-headers-4.4.78-blackberry-athena/include/config/audit/compat/generic.h
 d41d8cd98f00b204e9800998ecf8427e  usr/src/linux-headers-4.4.78-blackberry-athena/include/config/audit/generic.h
-f4999c82e9dd0bf6d7b2e9e643d2c9f6  usr/src/linux-headers-4.4.78-blackberry-athena/include/config/auto.conf
+b6b49b0f73dc9077a78116fcd61e0924  usr/src/linux-headers-4.4.78-blackberry-athena/include/config/auto.conf
 2fe66205e165cb9f7c6e39700313de86  usr/src/linux-headers-4.4.78-blackberry-athena/include/config/auto.conf.cmd
 d41d8cd98f00b204e9800998ecf8427e  usr/src/linux-headers-4.4.78-blackberry-athena/include/config/balance/anon/file/reclaim.h
 d41d8cd98f00b204e9800998ecf8427e  usr/src/linux-headers-4.4.78-blackberry-athena/include/config/base/full.h
@@ -3818,7 +3818,6 @@ d41d8cd98f00b204e9800998ecf8427e  usr/src/linux-headers-4.4.78-blackberry-athena
 d41d8cd98f00b204e9800998ecf8427e  usr/src/linux-headers-4.4.78-blackberry-athena/include/config/bbsecure/o/beneath.h
 d41d8cd98f00b204e9800998ecf8427e  usr/src/linux-headers-4.4.78-blackberry-athena/include/config/bbsecure/o/nosymlink.h
 d41d8cd98f00b204e9800998ecf8427e  usr/src/linux-headers-4.4.78-blackberry-athena/include/config/bbsecure/poweroff/cmd/default.h
-d41d8cd98f00b204e9800998ecf8427e  usr/src/linux-headers-4.4.78-blackberry-athena/include/config/bbsecure/security/selinux/develop/enforce.h
 d41d8cd98f00b204e9800998ecf8427e  usr/src/linux-headers-4.4.78-blackberry-athena/include/config/bcma/possible.h
 d41d8cd98f00b204e9800998ecf8427e  usr/src/linux-headers-4.4.78-blackberry-athena/include/config/binary/printf.h
 d41d8cd98f00b204e9800998ecf8427e  usr/src/linux-headers-4.4.78-blackberry-athena/include/config/binfmt/elf.h
@@ -3970,7 +3969,6 @@ d41d8cd98f00b204e9800998ecf8427e  usr/src/linux-headers-4.4.78-blackberry-athena
 d41d8cd98f00b204e9800998ecf8427e  usr/src/linux-headers-4.4.78-blackberry-athena/include/config/crypto/dev/ota/crypto.h
 d41d8cd98f00b204e9800998ecf8427e  usr/src/linux-headers-4.4.78-blackberry-athena/include/config/crypto/dev/qce50.h
 d41d8cd98f00b204e9800998ecf8427e  usr/src/linux-headers-4.4.78-blackberry-athena/include/config/crypto/dev/qcedev.h
-d41d8cd98f00b204e9800998ecf8427e  usr/src/linux-headers-4.4.78-blackberry-athena/include/config/crypto/dev/qcom/ice.h
 d41d8cd98f00b204e9800998ecf8427e  usr/src/linux-headers-4.4.78-blackberry-athena/include/config/crypto/dev/qcom/msm/qce.h
 d41d8cd98f00b204e9800998ecf8427e  usr/src/linux-headers-4.4.78-blackberry-athena/include/config/crypto/dev/qcrypto.h
 d41d8cd98f00b204e9800998ecf8427e  usr/src/linux-headers-4.4.78-blackberry-athena/include/config/crypto/drbg.h
@@ -4025,7 +4023,7 @@ d41d8cd98f00b204e9800998ecf8427e  usr/src/linux-headers-4.4.78-blackberry-athena
 d41d8cd98f00b204e9800998ecf8427e  usr/src/linux-headers-4.4.78-blackberry-athena/include/config/default/iosched.h
 d41d8cd98f00b204e9800998ecf8427e  usr/src/linux-headers-4.4.78-blackberry-athena/include/config/default/mmap/min/addr.h
 d41d8cd98f00b204e9800998ecf8427e  usr/src/linux-headers-4.4.78-blackberry-athena/include/config/default/security.h
-d41d8cd98f00b204e9800998ecf8427e  usr/src/linux-headers-4.4.78-blackberry-athena/include/config/default/security/selinux.h
+d41d8cd98f00b204e9800998ecf8427e  usr/src/linux-headers-4.4.78-blackberry-athena/include/config/default/security/dac.h
 d41d8cd98f00b204e9800998ecf8427e  usr/src/linux-headers-4.4.78-blackberry-athena/include/config/default/tcp/cong.h
 d41d8cd98f00b204e9800998ecf8427e  usr/src/linux-headers-4.4.78-blackberry-athena/include/config/defconfig/list.h
 d41d8cd98f00b204e9800998ecf8427e  usr/src/linux-headers-4.4.78-blackberry-athena/include/config/dev/coredump.h
@@ -4102,7 +4100,6 @@ d41d8cd98f00b204e9800998ecf8427e  usr/src/linux-headers-4.4.78-blackberry-athena
 d41d8cd98f00b204e9800998ecf8427e  usr/src/linux-headers-4.4.78-blackberry-athena/include/config/ext4/encryption.h
 d41d8cd98f00b204e9800998ecf8427e  usr/src/linux-headers-4.4.78-blackberry-athena/include/config/ext4/fs.h
 d41d8cd98f00b204e9800998ecf8427e  usr/src/linux-headers-4.4.78-blackberry-athena/include/config/ext4/fs/encryption.h
-d41d8cd98f00b204e9800998ecf8427e  usr/src/linux-headers-4.4.78-blackberry-athena/include/config/ext4/fs/ice/encryption.h
 d41d8cd98f00b204e9800998ecf8427e  usr/src/linux-headers-4.4.78-blackberry-athena/include/config/ext4/fs/security.h
 d41d8cd98f00b204e9800998ecf8427e  usr/src/linux-headers-4.4.78-blackberry-athena/include/config/extcon.h
 d41d8cd98f00b204e9800998ecf8427e  usr/src/linux-headers-4.4.78-blackberry-athena/include/config/extra/firmware.h
@@ -4411,7 +4408,6 @@ d41d8cd98f00b204e9800998ecf8427e  usr/src/linux-headers-4.4.78-blackberry-athena
 d41d8cd98f00b204e9800998ecf8427e  usr/src/linux-headers-4.4.78-blackberry-athena/include/config/log/cpu/max/buf/shift.h
 d41d8cd98f00b204e9800998ecf8427e  usr/src/linux-headers-4.4.78-blackberry-athena/include/config/logo.h
 d41d8cd98f00b204e9800998ecf8427e  usr/src/linux-headers-4.4.78-blackberry-athena/include/config/logo/linux/clut224.h
-d41d8cd98f00b204e9800998ecf8427e  usr/src/linux-headers-4.4.78-blackberry-athena/include/config/lsm/mmap/min/addr.h
 d41d8cd98f00b204e9800998ecf8427e  usr/src/linux-headers-4.4.78-blackberry-athena/include/config/lzo/compress.h
 d41d8cd98f00b204e9800998ecf8427e  usr/src/linux-headers-4.4.78-blackberry-athena/include/config/lzo/decompress.h
 d41d8cd98f00b204e9800998ecf8427e  usr/src/linux-headers-4.4.78-blackberry-athena/include/config/mac80211/sta/hash/max/size.h
@@ -4461,7 +4457,6 @@ d41d8cd98f00b204e9800998ecf8427e  usr/src/linux-headers-4.4.78-blackberry-athena
 d41d8cd98f00b204e9800998ecf8427e  usr/src/linux-headers-4.4.78-blackberry-athena/include/config/mmc/perf/profiling.h
 d41d8cd98f00b204e9800998ecf8427e  usr/src/linux-headers-4.4.78-blackberry-athena/include/config/mmc/sdhci.h
 d41d8cd98f00b204e9800998ecf8427e  usr/src/linux-headers-4.4.78-blackberry-athena/include/config/mmc/sdhci/msm.h
-d41d8cd98f00b204e9800998ecf8427e  usr/src/linux-headers-4.4.78-blackberry-athena/include/config/mmc/sdhci/msm/ice.h
 d41d8cd98f00b204e9800998ecf8427e  usr/src/linux-headers-4.4.78-blackberry-athena/include/config/mmc/sdhci/pltfm.h
 d41d8cd98f00b204e9800998ecf8427e  usr/src/linux-headers-4.4.78-blackberry-athena/include/config/mmc/test.h
 d41d8cd98f00b204e9800998ecf8427e  usr/src/linux-headers-4.4.78-blackberry-athena/include/config/mmu.h
@@ -4810,7 +4805,6 @@ d41d8cd98f00b204e9800998ecf8427e  usr/src/linux-headers-4.4.78-blackberry-athena
 d41d8cd98f00b204e9800998ecf8427e  usr/src/linux-headers-4.4.78-blackberry-athena/include/config/pci/syscall.h
 d41d8cd98f00b204e9800998ecf8427e  usr/src/linux-headers-4.4.78-blackberry-athena/include/config/perf/events.h
 d41d8cd98f00b204e9800998ecf8427e  usr/src/linux-headers-4.4.78-blackberry-athena/include/config/perf/use/vmalloc.h
-d41d8cd98f00b204e9800998ecf8427e  usr/src/linux-headers-4.4.78-blackberry-athena/include/config/pfk.h
 d41d8cd98f00b204e9800998ecf8427e  usr/src/linux-headers-4.4.78-blackberry-athena/include/config/pgtable/levels.h
 d41d8cd98f00b204e9800998ecf8427e  usr/src/linux-headers-4.4.78-blackberry-athena/include/config/phy/qcom/ufs.h
 d41d8cd98f00b204e9800998ecf8427e  usr/src/linux-headers-4.4.78-blackberry-athena/include/config/phylib.h
@@ -5006,7 +5000,6 @@ d41d8cd98f00b204e9800998ecf8427e  usr/src/linux-headers-4.4.78-blackberry-athena
 d41d8cd98f00b204e9800998ecf8427e  usr/src/linux-headers-4.4.78-blackberry-athena/include/config/scsi/mod.h
 d41d8cd98f00b204e9800998ecf8427e  usr/src/linux-headers-4.4.78-blackberry-athena/include/config/scsi/scan/async.h
 d41d8cd98f00b204e9800998ecf8427e  usr/src/linux-headers-4.4.78-blackberry-athena/include/config/scsi/ufs/qcom.h
-d41d8cd98f00b204e9800998ecf8427e  usr/src/linux-headers-4.4.78-blackberry-athena/include/config/scsi/ufs/qcom/ice.h
 d41d8cd98f00b204e9800998ecf8427e  usr/src/linux-headers-4.4.78-blackberry-athena/include/config/scsi/ufs/test.h
 d41d8cd98f00b204e9800998ecf8427e  usr/src/linux-headers-4.4.78-blackberry-athena/include/config/scsi/ufshcd.h
 d41d8cd98f00b204e9800998ecf8427e  usr/src/linux-headers-4.4.78-blackberry-athena/include/config/scsi/ufshcd/platform.h
@@ -5019,10 +5012,6 @@ d41d8cd98f00b204e9800998ecf8427e  usr/src/linux-headers-4.4.78-blackberry-athena
 d41d8cd98f00b204e9800998ecf8427e  usr/src/linux-headers-4.4.78-blackberry-athena/include/config/security.h
 d41d8cd98f00b204e9800998ecf8427e  usr/src/linux-headers-4.4.78-blackberry-athena/include/config/security/network.h
 d41d8cd98f00b204e9800998ecf8427e  usr/src/linux-headers-4.4.78-blackberry-athena/include/config/security/perf/events/restrict.h
-d41d8cd98f00b204e9800998ecf8427e  usr/src/linux-headers-4.4.78-blackberry-athena/include/config/security/selinux.h
-d41d8cd98f00b204e9800998ecf8427e  usr/src/linux-headers-4.4.78-blackberry-athena/include/config/security/selinux/avc/stats.h
-d41d8cd98f00b204e9800998ecf8427e  usr/src/linux-headers-4.4.78-blackberry-athena/include/config/security/selinux/checkreqprot/value.h
-d41d8cd98f00b204e9800998ecf8427e  usr/src/linux-headers-4.4.78-blackberry-athena/include/config/security/selinux/develop.h
 d41d8cd98f00b204e9800998ecf8427e  usr/src/linux-headers-4.4.78-blackberry-athena/include/config/securityfs.h
 d41d8cd98f00b204e9800998ecf8427e  usr/src/linux-headers-4.4.78-blackberry-athena/include/config/seemp/core.h
 d41d8cd98f00b204e9800998ecf8427e  usr/src/linux-headers-4.4.78-blackberry-athena/include/config/select/memory/model.h
@@ -5192,7 +5181,7 @@ d41d8cd98f00b204e9800998ecf8427e  usr/src/linux-headers-4.4.78-blackberry-athena
 d41d8cd98f00b204e9800998ecf8427e  usr/src/linux-headers-4.4.78-blackberry-athena/include/config/tracing.h
 d41d8cd98f00b204e9800998ecf8427e  usr/src/linux-headers-4.4.78-blackberry-athena/include/config/tracing/events/gpio.h
 d41d8cd98f00b204e9800998ecf8427e  usr/src/linux-headers-4.4.78-blackberry-athena/include/config/tracing/support.h
-3f477b351bff82948b40dd5d31bcd8d7  usr/src/linux-headers-4.4.78-blackberry-athena/include/config/tristate.conf
+c85bb9d2d8c94ad16d9810cc6390edb2  usr/src/linux-headers-4.4.78-blackberry-athena/include/config/tristate.conf
 d41d8cd98f00b204e9800998ecf8427e  usr/src/linux-headers-4.4.78-blackberry-athena/include/config/tty.h
 d41d8cd98f00b204e9800998ecf8427e  usr/src/linux-headers-4.4.78-blackberry-athena/include/config/tun.h
 d41d8cd98f00b204e9800998ecf8427e  usr/src/linux-headers-4.4.78-blackberry-athena/include/config/uevent/helper.h
@@ -5649,9 +5638,9 @@ a152ba4670aebfbf8b2f01d82c27cc0d  usr/src/linux-headers-4.4.78-blackberry-athena
 ecbd99ee2c20601c4a5455c3cad47c00  usr/src/linux-headers-4.4.78-blackberry-athena/include/dt-bindings/thermal/thermal_exynos.h
 1dec971420ef7f58b74fbc3ea6bed3bb  usr/src/linux-headers-4.4.78-blackberry-athena/include/generated/.vdso-offsets.h.cmd
 1b1e4182d2d876d13eef08c181a53d2d  usr/src/linux-headers-4.4.78-blackberry-athena/include/generated/asm-offsets.h
-cbf7d0b330c534a3e0f9f4f68d8808d8  usr/src/linux-headers-4.4.78-blackberry-athena/include/generated/autoconf.h
+cd01e052848b26a82e6b347833a3ab8e  usr/src/linux-headers-4.4.78-blackberry-athena/include/generated/autoconf.h
 f09637d949ece2f36e3832f9d50b5895  usr/src/linux-headers-4.4.78-blackberry-athena/include/generated/bounds.h
-d4626a32fc655ab9d5566bf8b1592fc8  usr/src/linux-headers-4.4.78-blackberry-athena/include/generated/compile.h
+a425222c54e94c4666f11b01545cee35  usr/src/linux-headers-4.4.78-blackberry-athena/include/generated/compile.h
 ad8c8b68056989187a76888b454acf77  usr/src/linux-headers-4.4.78-blackberry-athena/include/generated/timeconst.h
 6079d5cbca54cffb2918d71f0bf3e625  usr/src/linux-headers-4.4.78-blackberry-athena/include/generated/uapi/linux/version.h
 c6f8feb4032fa8ed38fef93bc5d8c854  usr/src/linux-headers-4.4.78-blackberry-athena/include/generated/utsrelease.h
@@ -10313,21 +10302,14 @@ e508c00ba4de97320c203e9ac4c89a26  usr/src/linux-headers-4.4.78-blackberry-athena
 471a84c1375fdefb6e5da5a65deed515  usr/src/linux-headers-4.4.78-blackberry-athena/scripts/recordmcount.pl
 42f8ff89f0593769d29050c61459ed05  usr/src/linux-headers-4.4.78-blackberry-athena/scripts/selinux/Makefile
 ca76bcf8e6a059ec9f29e9d1e9cd57b1  usr/src/linux-headers-4.4.78-blackberry-athena/scripts/selinux/README
-21b56239182dd9cd797f6b3ca9a4a425  usr/src/linux-headers-4.4.78-blackberry-athena/scripts/selinux/genheaders/.genheaders.cmd
 58dce1f2fbfdc9cc6dd15ee9d2370504  usr/src/linux-headers-4.4.78-blackberry-athena/scripts/selinux/genheaders/.gitignore
 d49242ad09d2f03e63a593917d65f8f1  usr/src/linux-headers-4.4.78-blackberry-athena/scripts/selinux/genheaders/Makefile
-acde48e27d97ca0332762860bd51feb6  usr/src/linux-headers-4.4.78-blackberry-athena/scripts/selinux/genheaders/genheaders
 1eb1f59c37ac5644e5af0ca3160cc7be  usr/src/linux-headers-4.4.78-blackberry-athena/scripts/selinux/genheaders/genheaders.c
-d41d8cd98f00b204e9800998ecf8427e  usr/src/linux-headers-4.4.78-blackberry-athena/scripts/selinux/genheaders/modules.order
 f2666d55a877ef09512689c68cbe17d0  usr/src/linux-headers-4.4.78-blackberry-athena/scripts/selinux/install_policy.sh
 d1c9d4d6c8298009b2a3aeecd684db72  usr/src/linux-headers-4.4.78-blackberry-athena/scripts/selinux/mdp/.gitignore
-2e0e5df353cd12f243e1cb40be62252f  usr/src/linux-headers-4.4.78-blackberry-athena/scripts/selinux/mdp/.mdp.cmd
 0ad69f5665779ca705efb8013767b0e1  usr/src/linux-headers-4.4.78-blackberry-athena/scripts/selinux/mdp/Makefile
 b1c42884fa5bdbde53d64cff469374fd  usr/src/linux-headers-4.4.78-blackberry-athena/scripts/selinux/mdp/dbus_contexts
-2a7c35922785eba1aad66250266bb0cb  usr/src/linux-headers-4.4.78-blackberry-athena/scripts/selinux/mdp/mdp
 03f92d422fd32dcfd0b2118f1cefcc9c  usr/src/linux-headers-4.4.78-blackberry-athena/scripts/selinux/mdp/mdp.c
-d41d8cd98f00b204e9800998ecf8427e  usr/src/linux-headers-4.4.78-blackberry-athena/scripts/selinux/mdp/modules.order
-d41d8cd98f00b204e9800998ecf8427e  usr/src/linux-headers-4.4.78-blackberry-athena/scripts/selinux/modules.order
 9bf88897e943d8bfd75cf696db01ce64  usr/src/linux-headers-4.4.78-blackberry-athena/scripts/setlocalversion
 6bbac7f0c5d6d58e75ac18c6e8a2a30f  usr/src/linux-headers-4.4.78-blackberry-athena/scripts/show_delta
 e626e026fd953f5f481d6bc6ac890e62  usr/src/linux-headers-4.4.78-blackberry-athena/scripts/sign-file.c
