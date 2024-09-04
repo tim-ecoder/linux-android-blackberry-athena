@@ -4114,8 +4114,8 @@ CONFIG_SPS=y
 CONFIG_SPS_SUPPORT_NDP_BAM=y
 # CONFIG_EP_PCIE is not set
 
-# jesus: we don't need IPAv2 and IPAv3
-CONFIG_IPA=n
+# marsh: Enable IPA in order to use ofono
+CONFIG_IPA=y
 
 CONFIG_RMNET_IPA=y
 CONFIG_GSI=y
