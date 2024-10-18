@@ -11,7 +11,7 @@ VARIANT = android
 KERNEL_BASE_VERSION = 4.4.78
 
 # The kernel cmdline to use
-KERNEL_BOOTIMAGE_CMDLINE = earlycon=msm_serial_dm,0xc170000 androidboot.hardware=qcom user_debug=31 msm_rtb.filter=0x37 ehci-hcd.park=3 lpm_levels.sleep_disabled=1 sched_enable_hmp=1 sched_enable_power_aware=1 service_locator.enable=1 swiotlb=1 androidboot.configfs=true androidboot.usbcontroller=a800000.dwc3 androidboot.imagetype=sfi build_number=AAZ108 androidboot.build_number=AAZ108 coherent_pool=1280K buildvariant=user console=tty0 droidian.lvm.prefer datapart=/dev/mmcblk0p77
+KERNEL_BOOTIMAGE_CMDLINE = earlycon=msm_serial_dm,0xc170000 androidboot.hardware=qcom user_debug=31 msm_rtb.filter=0x37 ehci-hcd.park=3 lpm_levels.sleep_disabled=1 sched_enable_hmp=1 sched_enable_power_aware=1 service_locator.enable=1 swiotlb=1 androidboot.configfs=true androidboot.usbcontroller=a800000.dwc3 androidboot.imagetype=sfi build_number=AAZ108 androidboot.build_number=AAZ108 coherent_pool=1280K buildvariant=user console=tty0 droidian.lvm.prefer datapart=/dev/mmcblk0p77 systemd.unified_cgroup_hierarchy=0
 
 # Slug for the device vendor. This is going to be used in the KERNELRELASE
 # and package names.
@@ -121,7 +121,7 @@ FLASH_ENABLED = 0
 
 # If your device is treble-ized, but aonly, you should set the following to
 # 1 (yes).
-FLASH_IS_AONLY = 0
+FLASH_IS_AONLY = 1
 
 # `flash-bootimage` defaults are enough for most recent devices, but legacy
 # devices won't work out of the box.
