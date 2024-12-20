@@ -345,7 +345,7 @@
 			vdd-supply = <&pm660l_bob>;
 
 			aw2027,rgb {
-				aw2027,name = "keyboard-backlight";
+				aw2027,name = ":kbd_backlight";
 				aw2027,id = <7>;
 				aw2027,imax = <2>;
 				aw2027,led-current = <0xf>;
