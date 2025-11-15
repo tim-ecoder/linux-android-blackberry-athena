@@ -36,6 +36,11 @@
 #define IPA_DFLT_RT_TBL_NAME "ipa_dflt_rt"
 
 /**
+ * name for default value of invalid protocol of NAT
+ */
+#define IPAHAL_NAT_INVALID_PROTOCOL   0xFF
+
+/**
  * commands supported by IPA driver
  */
 #define IPA_IOCTL_ADD_HDR                       0
@@ -92,6 +97,8 @@
 #define IPA_IOCTL_DEL_NAT_TABLE                 50
 #define IPA_IOCTL_DEL_IPV6CT_TABLE              51
 #define IPA_IOCTL_MAX                           52
+#define IPA_IOCTL_CLEANUP                       56
+#define IPA_IOCTL_QUERY_WLAN_CLIENT             57
 
 /**
  * max size of the header to be inserted
@@ -148,6 +155,8 @@
 #define IPA_FLT_MAC_SRC_ADDR_802_3	(1ul << 19)
 #define IPA_FLT_MAC_DST_ADDR_802_3	(1ul << 20)
 #define IPA_FLT_MAC_ETHER_TYPE		(1ul << 21)
+#define IPA_FLT_TCP_SYN			(1ul << 23)
+#define IPA_FLT_TCP_SYN_L2TP		(1ul << 24)
 
 /**
  * maximal number of NAT PDNs in the PDN config table
@@ -498,6 +507,7 @@ enum ipa_hw_type {
 	IPA_HW_v3_5 = 12,
 	IPA_HW_v3_5_1 = 13,
 	IPA_HW_v4_0 = 14,
+	IPA_HW_v4_5 = 17,
 };
 #define IPA_HW_MAX (IPA_HW_v4_0 + 1)
 
@@ -1874,5 +1884,10 @@ enum odu_bridge_mode {
 #define ODU_BRIDGE_IOC_SET_LLV6_ADDR _IOW(ODU_BRIDGE_IOC_MAGIC, \
 				ODU_BRIDGE_IOCTL_SET_LLV6_ADDR, \
 				struct in6_addr *)
+
+#define IPA_IOC_CLEANUP _IO(IPA_IOC_MAGIC,\
+					IPA_IOCTL_CLEANUP)
+#define IPA_IOC_QUERY_WLAN_CLIENT _IO(IPA_IOC_MAGIC,\
+					IPA_IOCTL_QUERY_WLAN_CLIENT)
 
 #endif /* _UAPI_MSM_IPA_H_ */

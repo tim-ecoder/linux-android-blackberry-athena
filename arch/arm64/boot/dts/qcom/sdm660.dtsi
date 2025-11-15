@@ -310,10 +310,10 @@
 					dev = "/dev/block/platform/soc/c0c4000.sdhci/by-name/system";
 					type = "ext4";
 /* start:BBSECURE_PATHTRUST : Add the trusted flag */
-					mnt_flags = "ro,barrier=1,discard,trusted";
+					mnt_flags = "ro,barrier=1,discard";
 /* end:BBSECURE_PATHTRUST */
 /* start:BBRY_ANDROID : Add system signature */
-					fsmgr_flags = "wait,verify,signature=/system_signature";
+					fsmgr_flags = "wait";
 /* end:BBRY_ANDROID */
 					status = "ok";
 				};
@@ -322,10 +322,10 @@
 					dev = "/dev/block/platform/soc/c0c4000.sdhci/by-name/vendor";
 					type = "ext4";
 /* start:BBSECURE_PATHTRUST : Add the trusted flag */
-					mnt_flags = "ro,barrier=1,discard,trusted";
+					mnt_flags = "ro,barrier=1,discard";
 /* end:BBSECURE_PATHTRUST */
 /* start:BBRY_ANDROID : Add vendor signature */
-					fsmgr_flags = "wait,verify,signature=/vendor_signature";
+					fsmgr_flags = "wait";
 /* end:BBRY_ANDROID */
 					status = "ok";
 				};
