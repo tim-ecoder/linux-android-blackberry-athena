@@ -1,6 +1,0 @@
-linux-android-blackberry-athena (0.0.0+git20230829122528.ad999af.jesus.droidian.athena.ace748.insecure+git20230913184421.5f0716c.jesus.athena.aaz108) jesus; urgency=medium
-
-  * athena: remove luna device tree that was being used by mistake
-
- -- Jesús Higueras <jesus@dabbleam.com>  Wed, 13 Sep 2023 20:44:21 +0200
-

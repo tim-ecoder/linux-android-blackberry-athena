@@ -296,6 +296,8 @@ enum icnss_driver_state {
 	ICNSS_HOST_TRIGGERED_PDR,
 	ICNSS_FW_DOWN,
 	ICNSS_DRIVER_UNLOADING,
+        ICNSS_REJUVENATE,
+	ICNSS_BLOCK_SHUTDOWN,
 };
 
 struct ce_irq_list {
@@ -1166,6 +1168,24 @@ bool icnss_is_fw_ready(void)
 }
 EXPORT_SYMBOL(icnss_is_fw_ready);
 
+void icnss_block_shutdown(bool status)
+{
+
+//KRAB-HACKY_STUB
+return;
+	if (!penv)
+		return;
+
+	if (status) {
+		set_bit(ICNSS_BLOCK_SHUTDOWN, &penv->state);
+//		reinit_completion(&penv->unblock_shutdown);
+	} else {
+		clear_bit(ICNSS_BLOCK_SHUTDOWN, &penv->state);
+//		complete(&penv->unblock_shutdown);
+	}
+}
+EXPORT_SYMBOL(icnss_block_shutdown);
+
 bool icnss_is_fw_down(void)
 {
 	if (!penv)
@@ -1175,6 +1195,14 @@ bool icnss_is_fw_down(void)
 }
 EXPORT_SYMBOL(icnss_is_fw_down);
 
+bool icnss_is_rejuvenate(void)
+{
+	if (!penv)
+		return false;
+	else
+		return test_bit(ICNSS_REJUVENATE, &penv->state);
+}
+EXPORT_SYMBOL(icnss_is_rejuvenate);
 
 int icnss_power_off(struct device *dev)
 {
@@ -3842,6 +3870,13 @@ static int icnss_stats_show_state(struct seq_file *s, struct icnss_priv *priv)
 		case ICNSS_FW_DOWN:
 			seq_puts(s, "FW DOWN");
 			continue;
+		case ICNSS_REJUVENATE:
+			seq_puts(s, "ICNSS_REJUVENATE");
+			continue;
+		case ICNSS_BLOCK_SHUTDOWN:
+			seq_puts(s, "ICNSS_BLOCK_SHUTDOWN");
+			continue;
+
 		case ICNSS_DRIVER_UNLOADING:
 			seq_puts(s, "DRIVER UNLOADING");
 		}

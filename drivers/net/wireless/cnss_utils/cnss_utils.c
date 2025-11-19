@@ -256,6 +256,13 @@ out:
 }
 EXPORT_SYMBOL(cnss_utils_get_wlan_mac_address);
 
+u8 *cnss_utils_get_wlan_derived_mac_address(
+			struct device *dev, uint32_t *num)
+{
+	return cnss_utils_get_wlan_mac_address(dev, num);
+}
+EXPORT_SYMBOL(cnss_utils_get_wlan_derived_mac_address);
+
 void cnss_utils_set_cc_source(struct device *dev,
 			      enum cnss_utils_cc_src cc_source)
 {
@@ -267,6 +274,8 @@ void cnss_utils_set_cc_source(struct device *dev,
 	priv->cc_source = cc_source;
 }
 EXPORT_SYMBOL(cnss_utils_set_cc_source);
+
+
 
 enum cnss_utils_cc_src cnss_utils_get_cc_source(struct device *dev)
 {
